@@ -10,4 +10,14 @@ for(let i = 0; i < 5; i++){
 console.log(somma);*/
 
 ///VERSIONE CON IL WHILE//
+let somma=0;
+let i = 0;
+while(i <5){
+    let numero =parseInt(prompt("inserisci il numero"));
+    somma += numero;
+    i++;
 
+}
+
+
+console.log(somma);
